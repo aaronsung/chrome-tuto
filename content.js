@@ -1,5 +1,4 @@
-(function() {
-  $(function() {
-    return $("#nav-your-amazon").empty();
-  });
-}).call(this);
+$(function(){
+	console.log('test');
+	$("#nav-your-amazon").empty();
+});

@@ -11,5 +11,11 @@
   },
   "permissions": [
     "https://secure.flickr.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.amazon.cn/*","https://www.amazon.cn/*","<all_urls>"],
+      "js": ["jquery.js","content.js"]
+    }
   ]
 }
